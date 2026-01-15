@@ -28,7 +28,7 @@ def addMoney(balance):
 
         balance += amount
         print(f'Transaction successful {amount} added to your balance')
-
+        print('Your updated balance is', balance)
 
         return balance
         
@@ -49,6 +49,7 @@ def spendMoney(balance):
 
         balance -= amount
         print(f'Transaction successful {amount} spent')
+        print('Your updated balance is', balance)
         return balance
     
     
@@ -66,17 +67,17 @@ def main():
         match choice:
 
             case '1' | 'add':
-                    prev_balance = balance
+                    # prev_balance = balance
                     balance = addMoney(balance)
-                    if prev_balance != balance:
-                        print('Your updated balance is', balance)
+                    # if prev_balance != balance:
+                        # print('Your updated balance is', balance)
                     print('----------------------------------')
                 
             case '2' | 'spend':
-                    prev_balance = balance
-                    balance = spendMoney(balance)
-                    if prev_balance != balance:
-                        print('Your updated balance is', balance)
+                    # prev_balance = balance
+                    # balance = spendMoney(balance)
+                    # if prev_balance != balance:
+                        # print('Your updated balance is', balance)
                     print('----------------------------------')
                 
             case '3' | 'check':
