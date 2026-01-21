@@ -6,7 +6,7 @@
 # mutable
 # data access name indexing
 # ordered
-# no duplicate keys
+# no duplicate keys, unique, mutable
 
 
 # dict = {
@@ -76,6 +76,7 @@
 
 # print(type(emp))
 
+# get method --------------------------
 
 # dict1 = {
 #     "user" : "Omkar",
