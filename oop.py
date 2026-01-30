@@ -10,7 +10,7 @@
 # Polymorphism
 
 # class and object
-
+  
 # class - is blueprint of object
 # contain propertes and methods.
 
