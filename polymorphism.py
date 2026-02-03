@@ -44,7 +44,7 @@ class UPI(PaymentGateway):
         super().details()
 
 class COD(PaymentGateway):
-    def pa
+
 
     
     def pay(self):
